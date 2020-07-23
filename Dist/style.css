@@ -29,8 +29,6 @@ body {
       text-decoration: none; }
       .nav_list a:active {
         text-decoration: underline; }
-  .nav.active {
-    display: block; }
 
 .head {
   display: flex;
