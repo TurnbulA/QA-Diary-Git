@@ -37,9 +37,14 @@ body {
     margin-bottom: 0.5rem; }
 
 table {
-  width: 100%; }
+  margin: 1rem 0;
+  width: 100%;
+  border-collapse: collapse; }
   table th {
     border: 1px solid; }
   table td {
     border: 1px solid;
-    padding: 0.5rem; }
+    padding: 0.25rem; }
+
+.addCourse {
+  margin-top: 4rem; }
