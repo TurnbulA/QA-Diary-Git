@@ -19,15 +19,18 @@ body {
   position: absolute;
   top: 0.8rem;
   left: 5rem;
-  display: flex;
-  display: none;
-  flex-direction: column; }
-  .nav a {
-    margin: 0.5rem 0;
-    color: #003e50;
-    text-decoration: none; }
-    .nav a:active {
-      text-decoration: underline; }
+  display: none; }
+  .nav_list {
+    display: flex;
+    flex-direction: column; }
+    .nav_list a {
+      margin: 0.5rem 0;
+      color: #003e50;
+      text-decoration: none; }
+      .nav_list a:active {
+        text-decoration: underline; }
+  .nav.active {
+    display: block; }
 
 .head {
   display: flex;
