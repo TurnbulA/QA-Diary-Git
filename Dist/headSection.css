@@ -1,0 +1,6 @@
+.head {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column; }
+  .head .searchBar {
+    margin-bottom: 0.5rem; }

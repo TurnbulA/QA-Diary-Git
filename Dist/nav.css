@@ -1,3 +1,6 @@
+.navButton {
+  position: absolute; }
+
 .nav {
   border: 1px solid #003e50;
   background-color: #e4e2e2;
@@ -6,7 +9,10 @@
   margin: 0;
   z-index: 2;
   position: absolute;
+  top: 0.8rem;
+  left: 5rem;
   display: flex;
+  display: none;
   flex-direction: column; }
   .nav a {
     margin: 0.5rem 0;

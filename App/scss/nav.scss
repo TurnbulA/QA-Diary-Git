@@ -1,5 +1,8 @@
 $green: #003e50;
 $grey: #e4e2e2;
+.navButton {
+  position: absolute;
+}
 .nav {
   border: 1px solid $green;
   background-color: $grey;
@@ -8,7 +11,10 @@ $grey: #e4e2e2;
   margin: 0;
   z-index: 2;
   position: absolute;
+  top: 0.8rem;
+  left: 5rem;
   display: flex;
+  display: none;
   flex-direction: column;
   a {
     margin: 0.5rem 0;
