@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Diary</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="Dist/style.css" />
-  </head>
-  <body>
-    <nav>
-      <button><img alt="menu button" src="App/images/menu.png" /></button>
-      <ul>
-        <li>Course Material</li>
-        <li>Notes</li>
-        <li>Reports</li>
-      </ul>
-    </nav>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diary</title>
+<link rel="stylesheet" href="App/css/homePageStylesheet.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="App/js/homePageScript.js"></script>
+</head>
+<body>
 
-    <div class="addCourse">
-      <button id="addCourseButton">Add Course</button>
-    </div>
+<nav>
+<button id="homePageMenuButton"> <img alt="menu button" src="images\menu.png"> </button>
+<ul id="navOptions">
+<li>Course Material </li>
+<li>Notes</li>
+<li>Reports</li>
+</ul>
+</nav>
 
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>Module</th>
-            <th>Date</th>
-            <th>Location</th>
-          </tr>
-        </thead>
+<div class="addCourse">
+<button id="addCourseButton">Add Course</button>
+</div>
 
-        <tbody>
-          <tr>
-            <td>Responsive Web App</td>
-            <td>22/7/2020</td>
-            <td>Webex</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </body>
+<div>
+<table>
+
+<thead>
+<tr>
+<th>Module </th>
+<th>Date </th>
+<th>Location </th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Responsive Web App </td>
+<td>22/7/2020 </td>
+<td>Webex </td>
+</tr>
+</tbody>
+
+</table>
+</div>
+
+</body>
 </html>

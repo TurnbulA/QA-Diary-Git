@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	padding: 10px;
+	color: #006666;
+}
+nav{
+	float:left;
+}
+nav>button{
+	background-color: white;
+	border: 0px;
+}
+nav>ul{
+	list-style-type: none;
+}
+nav>ul>li:hover {
+	font-size: 20pt;
+}
+
+.addCourse{
+	float: right;
+	padding: 20px;
+}
+.addCourse>button{
+	padding: 10px;
+}
+
+table{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+thead {
+	background-color: #006666;
+	color: white;
+}
+th,td{
+	padding: 5px;
+}
+table, th, td{
+	border: 2px solid black;
+}
