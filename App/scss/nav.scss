@@ -1,0 +1,21 @@
+$green: #003e50;
+$grey: #e4e2e2;
+.nav {
+  border: 1px solid $green;
+  background-color: $grey;
+  padding: 0.5rem;
+  width: fit-content;
+  margin: 0;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  a {
+    margin: 0.5rem 0;
+    color: $green;
+    text-decoration: none;
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}
