@@ -1,6 +1,5 @@
-$(document).ready(function(){	
-	$("#navOptions").hide();
-	$("#homePageMenuButton").click(function(){
-		$("#navOptions").toggle(100);
-	})
-})
+$(document).ready(function () {
+  $(".navButton").click(function () {
+    $(".nav").classList.toggle("active");
+  });
+});
